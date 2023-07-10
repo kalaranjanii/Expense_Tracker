@@ -1,0 +1,120 @@
+body{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main h1{
+    text-align: center;
+}
+h2{
+    font-size:20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.balance_container #balance{
+    font-size: 25px;
+}
+.cashflow_container{
+    border: 1px solid black;
+    border-color: white;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 4px 1px;
+    margin-top: 10px;
+}
+.income_container{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+.expense_container{
+    padding-left: 20px;
+}
+#income {
+    font-size: 25px;
+    color: green;
+}
+#expense{
+    font-size: 25px;
+    color: red;
+}
+.transaction_container{
+    margin-top: 40px;
+}
+#transaction{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#transaction li {
+    display: flex;
+     flex-direction: row; 
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 4px 1px ;
+    font-size: 20px;
+}
+#transaction #mydiv{
+    margin-left: 250px;
+    margin-top: -95px;
+    line-height: 130px;
+    padding-right: 10px;
+}
+#transaction .income_amt {
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+#transaction .expense_amt {
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+}
+#transaction button {
+    padding: 6px 10px 6px 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+}
+#transaction button:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}
+.form_container{
+    margin-top: 40px;
+}
+.form_container form{
+    display: flex;
+    flex-direction: column;
+}
+.form_container form label{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.form_container form input{
+    height: 25px;
+    margin-bottom: 10px;
+}
+.form_container form button{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#addincome{
+    background-color: green;
+    color: white;    
+}
+#addexpense{
+    background-color: red;
+    color: white;
+}

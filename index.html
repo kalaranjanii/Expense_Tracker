@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Expense Tracker</h1>
+        <div class="balance_container">
+            <h2>Your Balance</h2>
+            <div id="balance">$1000</div>
+        </div>
+
+        <div class="cashflow_container">
+            <div class="income_container">
+                <h2>Income</h2>
+                <div id="income">$1200</div>
+            </div>
+            <div class="expense_container">
+                <h2>Expense</h2>
+                <div id="expense">$300</div>
+            </div>
+        </div>
+
+        <div class="transaction_container">
+            <h2>Transaction History</h2>
+            <ul id="transaction">
+                <!-- <li>
+                        Salary 
+                        <div>
+                            <span class="income-amt">$5000</span>
+                            <button>X</button>
+                        </div>
+                    </li>
+                    <li>
+                        Buy Grocery 
+                        <div>
+                            <span class="expense-amt">$50</span>
+                            <button>X</button>
+                        </div>
+                    </li>
+                    <li>
+                        Buy Guitar
+                        <div>
+                            <span class="expense-amt">$500</span>
+                            <button>X</button>
+                        </div>
+                    </li> -->
+            </ul>
+        </div>
+
+        <div class="form_container">
+            <h2>Add new transaction</h2>
+            <form onsubmit="return false">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="amount">Amount</label>
+                <input id="amount" type="text">
+                <button id="addincome">ADD INCOME</button>
+                <button id="addexpense">ADD EXPENCE</button>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
